@@ -3,8 +3,8 @@ package jsk.BiomesPlus;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import jsk.BiomesPlus.lists.FoodList;
 import jsk.BiomesPlus.lists.ItemList;
+import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.ResourceLocation;
@@ -50,8 +50,7 @@ public class BiomesPlus
 		@SubscribeEvent
 		public static void registerItems(final RegistryEvent.Register<Item> event)
 		{
-			ItemList.candy_cane = new Item(new Item.Properties().group(ItemGroup.FOOD).food())
-		    Item﻿List.candy_cane = new Item(new Item.Properties().food(ItemList.candy_cane).group(ItemGroup.FOOD)).setRegistryName(location("gobber2_goo")),
+		    ItemList.candy_cane = new Item(new Item.Properties().food(new Food.Builder()).group(ItemGroup.FOOD)).setRegistryName(location("candy_cane"));
 			
 			logger.info("Items regestered.");
 		}
