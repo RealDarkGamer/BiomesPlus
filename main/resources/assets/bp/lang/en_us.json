@@ -1,0 +1,17 @@
+{
+	"block.bp.cherry_planks": "Cherry Planks",
+	"entity.bp.candy_trader": "",
+	"item.bp.candy_cane": "Candy Cane",
+	"item.bp.candy_cane_axe": "Candy Cane Axe",
+	"item.bp.candy_cane_boots": "Candy Cane Boots",
+	"item.bp.candy_cane_chestplate": "Candy Cane Chestplate",
+	"item.bp.candy_cane_hoe": "Candy Cane Hoe",
+	"item.bp.candy_cane_helmet": "Candy Cane Helmet",
+	"item.bp.candy_cane_leggings": "Candy Cane Leggings",
+	"block.bp.candy_cane_ore": "Candy Cane Ore",
+	"item.bp.candy_cane_pickaxe": "Candy Cane Pickaxe",
+	"item.bp.candy_cane_shovel": "Candy Cane Shovel",
+	"item.bp.candy_cane_sword": "Candy Cane Sword",
+	"item.bp.candy_trader_egg": "Candy Trader Spawn Egg",
+	"itemGroup.biomesplus": "BiomesPlus - Minecraft"
+}

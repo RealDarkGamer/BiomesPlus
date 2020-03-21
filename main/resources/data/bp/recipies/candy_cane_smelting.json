@@ -1,0 +1,7 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": { "tag": "bp:candy_cane_sword"},
+	"result": { "item": "bp:candy_cane"},
+	"experience": 2.3,
+	"coonkingtime": 300
+}

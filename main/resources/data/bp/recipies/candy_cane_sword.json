@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "C",
+        "C",
+		"S"
+    ],
+
+    "key":
+    {
+        "C": { "item": "bp:candy_cane"},
+		"S": { "item": "minecraft:stick"}
+    },
+   
+	"result": { "item": "bp:candy_cane_sword"}
+}
